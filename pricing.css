@@ -12,6 +12,10 @@ html {
   background-color: rgb(32, 32, 37);
 }
 
+.container {
+  width: 60%;
+}
+
 h1 {
   font-size: 14px;
   font-family: 'Gotham-Bold';
