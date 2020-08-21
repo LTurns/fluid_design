@@ -89,17 +89,16 @@ img {
   border: none;
 }
 
-button.btn.collapsed:before
-{
-    content:'+' ;
-    display:block;
+button.btn[aria-expanded="false"]:before {
+  content: '+';
+  display: block;
 }
 
-button.btn:before
-{
-    content:'-' ;
-    display:block;
+button.btn[aria-expanded="true"]:before {
+  content: '-';
+  display: block;
 }
+
 
 @media (max-width: 568px) {
   .display-4{
