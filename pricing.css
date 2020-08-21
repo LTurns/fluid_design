@@ -9,10 +9,6 @@ html {
   src: url("./fonts/ProximaNova-Regular.ttf");
 }
 
-.body {
-  font-family: 'Gotham-Bold';
-}
-
 h1 {
   font-size: 14px;
 }
@@ -36,3 +32,16 @@ h1 {
 .card-deck .card {
   min-width: 220px;
 }
+
+/* button.btn.collapsed:before
+{
+    content:'+' ;
+    display:block;
+    width:15px;
+}
+button.btn:before
+{
+    content:'-' ;
+    display:block;
+    width:15px;
+} */
