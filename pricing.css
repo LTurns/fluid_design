@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url("./fonts/Gotham-Bold.ttf");
+  font-family: 'ProximaNova';
+  src: url("./fonts/ProximaNova-Regular.ttf");
+}
+
+.body {
+  font-family: 'Gotham-Bold';
+}
+
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+  font-family: 'ProximaNova' !important;
+}
+
+.pricing-header {
+  font-family: 'Gotham-Bold' !important;
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
