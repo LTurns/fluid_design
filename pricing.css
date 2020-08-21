@@ -1,5 +1,5 @@
 html {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 @font-face {
@@ -13,6 +13,9 @@ html {
   font-family: 'Gotham-Bold';
 }
 
+h1 {
+  font-size: 14px;
+}
 
 @media (min-width: 768px) {
   html {
