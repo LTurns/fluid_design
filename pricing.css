@@ -10,6 +10,7 @@ html {
 .container-fluid {
   font-family: 'ProximaNova' !important;
   background-color: rgb(30, 34, 40);
+  height: 100vh;
 }
 
 .container {
@@ -37,6 +38,10 @@ h1 {
   padding-bottom: 1%;
   margin-bottom: 1%;
   border-bottom: 1px solid white;
+}
+
+.card {
+  width: 100%;
 }
 
 .lead {
@@ -79,7 +84,6 @@ img {
   margin-top: 5px;
 }
 
-
 .btn {
   border-radius: 50px ;
   height: 30px ;
@@ -108,10 +112,14 @@ button.btn[aria-expanded="true"]:before {
     visibility: visible;
     color: white;
     font-size: 29px;
-    border-bottom: 1px solid white;
-    border-bottom-style: inset;
   }
 
+  #underline2 {
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-bottom: 0%;
+    border-bottom: 1px white solid;
+  }
   .mobile-lead {
     visibility: visible;
     color: rgb(95, 109, 105);
@@ -126,7 +134,11 @@ button.btn[aria-expanded="true"]:before {
     left: 0%;
   }
 
-  .card-title {
-    padding-top: 10px;
+  img {
+    margin-top: 5%;
   }
+
+  /* .card-title {
+    padding-top: 10px;
+  } */
 }
