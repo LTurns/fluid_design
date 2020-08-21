@@ -1,36 +1,83 @@
-html {
+/* html {
   font-size: 12px;
-}
+} */
 
 @font-face {
   font-family: 'Gotham-Bold';
   src: url("./fonts/Gotham-Bold.ttf");
-  font-family: 'ProximaNova';
-  src: url("./fonts/ProximaNova-Regular.ttf");
+}
+
+.container-fluid {
+  font-family: 'ProximaNova' !important;
+  background-color: rgb(31, 31, 34);
+}
+
+.container {
+  width: 60%;
 }
 
 h1 {
   font-size: 14px;
+  font-family: 'Gotham-Bold';
+}
+
+.display-4 {
+  color: white;
+  font-size: 29px;
+}
+
+.display-4 #underline {
+  display: inline-block;
+  padding-bottom: 2%;
+  margin-bottom: 3%;
+  border-bottom: 1px solid white;
+  /* border-bottom: 3%; */
+}
+
+.lead {
+    color: rgb(95, 109, 105);
+    line-height: 0%;
+    font-size: 13px;
+}
+
+@font-face{
+  font-family: 'ProximaNova';
+  src: url("./fonts/ProximaNova-Regular.ttf");
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+}
+
+.card-title {
+  color: white;
+}
+
+.card-header {
+  background-color: rgb(99, 105, 99);
+}
+
+.card-body {
+  background-color: rgb(7, 7, 7);
+  color: rgb(99, 105, 99);
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.container {
-  max-width: 960px;
-  font-family: 'ProximaNova' !important;
-}
-
-.pricing-header {
-  font-family: 'Gotham-Bold' !important;
-  max-width: 700px;
+  /* html {
+    /* font-size: 16px;
+  } */
 }
 
 .card-deck .card {
   min-width: 220px;
+}
+
+.btn {
+  border-radius: 50px ;
+  height: 50px ;
+  width: 50px ;
+  font-size:12px;
 }
 
 /* button.btn.collapsed:before
