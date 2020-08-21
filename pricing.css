@@ -1,5 +1,5 @@
 html {
-  background-color: rgb(32, 32, 37);
+  background-color: rgb(33, 36, 45);
 }
 
 @font-face {
@@ -9,7 +9,7 @@ html {
 
 .container-fluid {
   font-family: 'ProximaNova' !important;
-  background-color: rgb(32, 32, 37);
+  background-color: rgb(30, 34, 40);
 }
 
 .container {
