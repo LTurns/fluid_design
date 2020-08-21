@@ -8,7 +8,6 @@ body {
   src: url("./fonts/Gotham-Bold.ttf");
 }
 
-
 h1 {
   font-size: 14px;
   font-family: 'Gotham-Bold';
@@ -29,13 +28,12 @@ h1 {
 
 .display-4 #underline {
   display: inline-block;
-  padding-bottom: 1%;
-  margin-bottom: 1%;
+  padding-bottom: 2%;
   border-bottom: 1px solid white;
 }
 
 .card {
-  width: 100%;
+  width: 300px;
 }
 
 .lead {
@@ -75,7 +73,7 @@ h1 {
 
 img {
   width: 7%;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .btn {
