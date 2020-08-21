@@ -41,7 +41,7 @@ h1 {
 
 .lead {
     color: rgb(95, 109, 105);
-    line-height: 0%;
+    line-height: 10px;
     font-size: 13.5px;
 }
 
